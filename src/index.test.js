@@ -32,7 +32,7 @@ describe('compress', (): void => {
     expect(compress(query)).toBe(expected)
   })
 
-  it('handles no input', () => {
+  it('handles no input', (): void => {
     expect(compress()).toBe('')
   })
 })

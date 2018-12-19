@@ -14,7 +14,7 @@
     "format": "prettier --write *.js \"src/*.js\" && fixpack",
     "prebuild": "npm run test:build",
     "precommit": "lint-staged",
-    "preversion": "npm t",
+    "preversion": "npm run build",
     "test": "run-s -s test:lint test:flow test:jest",
     "test:build": "run-s -s test:lint test:flow cover cover:coveralls",
     "test:flow": "flow check",

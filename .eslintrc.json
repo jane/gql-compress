@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "plugins": [
+    "jane"
+  ],
+  "extends": [
+    "plugin:jane/recommended",
+    "plugin:jane/flow",
+    "plugin:jane/prettier",
+    "plugin:jane/jest",
+    "plugin:jane/recommended",
+    "plugin:jane/recommended"
+  ]
+}

@@ -1,0 +1,11 @@
+[ignore]
+.*/lib/*
+
+[include]
+.*/src/*
+
+[libs]
+flow-typed
+
+[options]
+experimental.const_params=true

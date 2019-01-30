@@ -1,4 +1,4 @@
-# gql-compress
+query{repository(owner:\"octocat\",name:\"Hello-World\"){issues(last:20,states:CLOSED){edges{node{title url labels(first:5){edges{node{name}}}}}}}}# gql-compress
 
 Shrink your GraphQL
 
@@ -37,8 +37,8 @@ const uncompressed = `
   }
 ` // 357 bytes
 
-const compressed = compress(uncompressed) // 175 bytes
-// outputs: "query { repository(owner:\"octocat\", name:\"Hello-World\") { issues(last:20, states:CLOSED) { edges { node { title url labels(first:5) { edges { node { name } } } } } } } }"
+const compressed = compress(uncompressed) // 147 bytes
+// outputs: "query{repository(owner:\"octocat\",name:\"Hello-World\"){issues(last:20,states:CLOSED){edges{node{title url labels(first:5){edges{node{name}}}}}}}}"
 ```
 
 Example from [GitHub](https://developer.github.com/v4/guides/forming-calls/).

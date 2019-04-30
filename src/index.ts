@@ -1,5 +1,3 @@
-// @flow
-
 export default (s: string = ''): string =>
   s
     // replace multiple whitespace with a single

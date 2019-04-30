@@ -1,5 +1,3 @@
-// @flow
-
 /* eslint-env jest */
 
 import compress from './'

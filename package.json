@@ -35,7 +35,7 @@
     "@types/jest": "24.0.12",
     "coveralls": "3.0.3",
     "eslint": "5.16.0",
-    "eslint-plugin-jane": "5.1.6",
+    "eslint-plugin-jane": "5.1.7",
     "husky": "2.1.0",
     "jest": "24.7.1",
     "lint-staged": "8.1.5",

@@ -2,7 +2,7 @@
 
 Shrink your GraphQL
 
-[![CircleCI](https://circleci.com/gh/jane/gql-compress.svg?style=svg)](https://circleci.com/gh/jane/gql-compress) [![Coverage Status](https://coveralls.io/repos/github/jane/gql-compress/badge.svg?branch=master)](https://coveralls.io/github/jane/gql-compress?branch=master)
+![npm version](https://img.shields.io/npm/v/gql-compress.svg)](https://npm.im/gql-compress) [![CircleCI](https://circleci.com/gh/jane/gql-compress.svg?style=svg)](https://circleci.com/gh/jane/gql-compress) [![Coverage Status](https://coveralls.io/repos/github/jane/gql-compress/badge.svg?branch=master)](https://coveralls.io/github/jane/gql-compress?branch=master)
 
 ----
 

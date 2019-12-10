@@ -1,7 +1,7 @@
 {
   "name": "gql-compress",
   "description": "Shrink your GraphQL",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "author": "Jane Web Team",
   "license": "MIT",
   "main": "lib/index.js",
